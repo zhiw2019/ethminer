@@ -56,7 +56,7 @@ cmake_policy(SET CMP0054 NEW)
 ######################################################################################################
 
 option(ETHASHCL "Build with OpenCL mining" ON)
-option(ETHASHCUDA "Build with CUDA mining" OFF)
+option(ETHASHCUDA "Build with CUDA mining" ON)
 option(ETHSTRATUM "Build with Stratum protocol support" ON)
 option(ETHDBUS "Build with D-Bus support" OFF)
 option(APICORE "Build with API Server support" ON)
